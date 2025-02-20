@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_XRayClippingShader_Transparent
+  m_Shader: {fileID: 4800000, guid: f3f1a55430c888946840d79a93cc2acf, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _USEEMISSIVEMAP_ON
+  - _USEMAINTEX_ON
+  - _USENORMALMAP_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _MetallicMap
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AOMap:
+        m_Texture: {fileID: 2800000, guid: b2fa8bf1a9b75ab43b096afe6ca49f85, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveMap:
+        m_Texture: {fileID: 2800000, guid: 5f683d68d9d17a34db0799e4093b84ce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7ab0810fcdb6711488e3b33e146dba86, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMap:
+        m_Texture: {fileID: 2800000, guid: 919f9100b4466ed499b0aef78d8bcd0e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: f0c7c31082fffd64ca1d36dc99927925, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OpacityMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessMap:
+        m_Texture: {fileID: 2800000, guid: 45c0d5d228ae5404f95eb90cd71bfb6e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClipThreshold: 0.595
+    - _BrightenFactor: 1.73
+    - _DarkenFactor: 0.659
+    - _EmissionStrength: 2.7
+    - _Metallic: 1
+    - _Opacity: 1
+    - _Roughness: 1
+    - _UseAOMap: 0
+    - _UseEmissiveMap: 1
+    - _UseMainTex: 1
+    - _UseMetallicMap: 0
+    - _UseNormalMap: 1
+    - _UseOpacityMap: 0
+    - _UseRoughnessMap: 0
+    m_Colors:
+    - _BaseColor: {r: 0.96981126, g: 0.96981126, b: 0.96981126, a: 0.94509804}
+    - _ClipPlaneNormal: {r: 0.9984307, g: 0.046182875, b: 0.03167624, a: 0}
+    - _ClipPlanePos: {r: 0.64, g: 0.28, b: -0.21, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
